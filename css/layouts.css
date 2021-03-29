@@ -1,0 +1,40 @@
+header {
+    font-size: 50px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 70px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+select {
+    background-color: white;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0.5px solid turquoise;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 18px;
+}
+
+footer {
+    clear: both;
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 15px;
+    font-family: initial;
+    padding-top: 10px;
+}
