@@ -1,34 +1,42 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <title>The Gallery of Horns</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layouts.css">
-    <link rel="stylesheet" href="css/modules.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/modules.css" />
+    <link rel="stylesheet" href="./css/layouts.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <h1>The Gallery of Horns</h1>
-        <select>
+        <div></div>
+        <select class="select">
         <option value="default">Filter by Keyword</option>
       </select>
     </header>
     <main>
-        <section id="photo-template">
-            <h2></h2>
-            <img src="" alt="">
-            <p></p>
-        </section>
+        <div class="card--ctr">
+            <section class="photo-template">
+                <div class="img--p">
+
+                    <h2></h2>
+                    <img src="" alt="" />
+                    <p></p>
+                </div>
+                <div class="heading--ctr">
+
+                </div>
+            </section>
+        </div>
     </main>
-    <footer>
-        &copy; 2018 Code Fellows
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="js/app.js"></script>
+    <footer>&copy; 2018 Code Fellows</footer>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
